@@ -1,0 +1,16 @@
+receptor=p21.pdbqt
+ligand=pharm.pdbqt
+
+center_x=-8.477
+center_y=8.117
+center_z=-3.720
+
+size_x=120
+size_y=100
+size_z=126
+
+out=vina-out.pdbqt
+log=vina-log.txt
+
+exhaustiveness=32
+num_modes=20

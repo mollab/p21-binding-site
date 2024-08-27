@@ -1,0 +1,1320 @@
+MODEL 1
+REMARK VINA RESULT:      -6.5      0.000      0.000
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1       1.802   6.968  -6.355  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1       1.034   5.968  -5.741  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -0.022   6.267  -4.790  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -0.369   7.591  -4.595  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1       0.379   8.613  -5.104  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1       1.385   8.316  -6.055  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1       0.006  10.044  -4.751  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1       0.531  10.660  -3.483  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1      -0.340  11.108  -2.468  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1       0.167  11.704  -1.283  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1       1.517  12.035  -1.146  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1       2.368  11.600  -2.207  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1       1.852  10.906  -3.280  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1       2.217   9.454  -6.730  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1       1.663  10.030  -7.997  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1       1.840  11.021  -8.042  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1       2.209   9.656  -8.767  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1       0.670   9.898  -8.129  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1      -1.682   7.835  -3.816  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1      -2.986   7.405  -4.563  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1      -3.151   7.851  -5.771  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1      -2.388   8.407  -6.149  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1      -4.006   7.677  -6.266  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1      -3.762   6.617  -4.054  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1       2.962   6.668  -7.329  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1       2.439   6.353  -8.812  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1       1.269   4.482  -5.890  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1       0.074   3.683  -6.346  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -0.253   3.544  -7.508  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -0.588   3.050  -5.456  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:      -6.0      3.499      6.940
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1       0.736  11.090  -2.286  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1       2.054  11.226  -2.741  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1       2.582  10.452  -3.851  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1       1.706   9.657  -4.566  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1       0.431   9.425  -4.138  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -0.086  10.207  -3.078  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1      -0.438   8.447  -4.912  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1      -0.429   6.988  -4.544  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1       0.364   6.057  -5.245  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1       0.350   4.681  -4.899  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1      -0.568   4.161  -3.983  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1      -1.382   5.125  -3.315  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1      -1.244   6.470  -3.586  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -1.565  10.039  -2.599  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -2.619  10.697  -3.435  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1      -2.243  11.501  -3.910  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -2.850  10.061  -4.192  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -3.438  11.005  -2.929  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1       2.244   9.098  -5.904  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1       1.788   9.877  -7.180  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1       1.734   9.212  -8.293  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1       1.950   8.220  -8.230  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1       1.529   9.679  -9.157  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1       1.418  11.035  -7.102  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1       0.172  11.866  -1.076  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1       0.460  11.113   0.311  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1       3.112  12.085  -2.086  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1       4.214  11.329  -1.387  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1       5.400  11.536  -1.556  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1       3.875  10.471  -0.504  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:      -5.9      2.157      3.947
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1       0.415   5.581  -4.723  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1       1.387   6.041  -5.621  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1       1.519   7.443  -5.979  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1       0.745   8.365  -5.299  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1      -0.265   7.982  -4.466  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -0.367   6.619  -4.097  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1      -1.151   9.050  -3.843  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1      -0.678   9.791  -2.622  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1      -0.622  11.200  -2.593  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1      -0.158  11.888  -1.442  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1       0.427  11.212  -0.367  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1       0.387   9.787  -0.442  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1      -0.194   9.157  -1.522  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -1.456   6.138  -3.083  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -2.807   5.825  -3.648  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1      -2.722   5.434  -4.573  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -3.196   5.061  -3.103  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -3.437   6.611  -3.713  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1       1.135   9.848  -5.499  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1       1.883  10.163  -6.836  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1       1.152  10.398  -7.882  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1       0.146  10.404  -7.732  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1       1.576  10.523  -8.783  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1       3.096  10.266  -6.859  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1       0.226   4.089  -4.369  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -0.622   3.307  -5.484  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1       2.327   5.157  -6.407  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1       2.090   5.127  -7.896  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1       2.957   5.298  -8.732  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1       0.918   4.825  -8.303  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:      -5.7      3.237      7.013
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1      -0.578   8.909  -2.807  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1       0.687   9.164  -2.260  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1       1.773   8.200  -2.316  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1       1.585   7.050  -3.058  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1       0.362   6.706  -3.557  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -0.681   7.663  -3.527  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1       0.204   5.369  -4.262  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1       0.603   5.236  -5.707  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1       0.669   3.978  -6.340  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1       1.064   3.864  -7.698  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1       1.571   4.954  -8.410  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1       1.523   6.209  -7.731  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1       1.008   6.297  -6.455  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -2.079   7.352  -4.155  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -2.260   7.707  -5.599  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1      -2.495   6.890  -6.138  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -3.092   8.285  -5.669  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -1.457   8.135  -6.039  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1       2.855   6.212  -3.334  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1       4.097   7.030  -3.817  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1       4.042   7.543  -5.008  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1       3.168   7.408  -5.512  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1       4.840   8.005  -5.402  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1       5.032   7.242  -3.066  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1      -1.758   9.899  -2.712  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -1.661  11.061  -3.814  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1       1.052  10.393  -1.458  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1       0.824  10.283   0.029  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1       0.053   9.500   0.548  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1       1.547  11.008   0.793  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:      -5.7     13.229     16.525
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1      -4.269   7.386 -20.377  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1      -3.822   6.225 -19.732  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -2.418   5.975 -19.457  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -1.512   6.986 -19.718  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1      -1.868   8.110 -20.406  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -3.240   8.362 -20.641  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1      -0.794   9.127 -20.759  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1      -0.216   9.149 -22.149  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1       0.288  10.337 -22.718  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1       0.814  10.348 -24.036  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1       0.695   9.245 -24.885  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1       0.148   8.068 -24.290  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1      -0.230   8.061 -22.964  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -3.709   9.672 -21.354  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -3.717   9.656 -22.851  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1      -2.778   9.717 -23.211  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -4.025   8.734 -23.145  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -4.251  10.396 -23.285  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1      -0.095   6.788 -19.133  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1       0.093   7.288 -17.664  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1      -0.094   6.424 -16.715  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1      -0.303   5.473 -17.012  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1      -0.069   6.708 -15.753  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1       0.484   8.420 -17.439  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1      -5.752   7.645 -20.724  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -6.161   7.007 -22.138  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -4.699   5.054 -19.351  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -5.134   5.018 -17.908  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -4.750   4.198 -17.096  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -5.895   5.958 -17.496  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 6
+REMARK VINA RESULT:      -5.6     12.735     16.192
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1      -3.763   6.747 -20.655  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1      -3.523   5.775 -19.673  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -2.210   5.560 -19.090  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -1.198   6.441 -19.420  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1      -1.342   7.362 -20.417  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -2.631   7.589 -20.957  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1      -0.148   8.219 -20.806  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1       0.858   7.692 -21.793  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1       0.625   6.506 -22.519  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1       1.589   6.009 -23.435  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1       2.870   6.561 -23.526  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1       3.087   7.740 -22.751  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1       2.077   8.266 -21.974  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -2.868   8.687 -22.044  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -3.255  10.047 -21.551  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1      -3.988   9.979 -20.864  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -2.469  10.416 -21.024  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -3.574  10.688 -22.265  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1       0.079   6.353 -18.554  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1       0.114   7.318 -17.324  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1      -0.078   6.792 -16.153  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1      -0.188   5.781 -16.130  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1      -0.149   7.373 -15.338  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1       0.397   8.494 -17.465  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1      -5.139   6.956 -21.323  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -6.089   7.917 -20.458  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -4.541   4.770 -19.183  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -5.037   4.989 -17.776  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -4.671   4.344 -16.813  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -5.835   5.966 -17.575  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 7
+REMARK VINA RESULT:      -5.6      2.994      3.622
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1       2.120   6.593  -3.479  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1       0.801   6.156  -3.665  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -0.348   6.921  -3.212  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -0.128   8.188  -2.705  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1       1.128   8.647  -2.433  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1       2.241   7.912  -2.906  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1       1.287  10.004  -1.767  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1       1.412  10.090  -0.270  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1       2.648  10.365   0.351  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1       2.757  10.426   1.765  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1       1.704  10.045   2.601  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1       0.476   9.737   1.941  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1       0.376   9.819   0.568  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1       3.700   8.431  -2.692  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1       4.374   8.033  -1.415  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1       4.449   7.031  -1.352  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1       5.341   8.340  -1.471  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1       3.918   8.352  -0.572  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1      -1.387   9.066  -2.523  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1      -1.934   9.723  -3.832  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1      -1.060  10.121  -4.705  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1      -0.087   9.927  -4.482  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1      -1.349  10.623  -5.524  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1      -3.131   9.772  -4.049  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1       3.355   5.771  -3.908  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1       3.815   4.737  -2.771  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1       0.407   4.815  -4.241  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1       0.216   4.787  -5.737  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1       0.360   5.750  -6.464  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -0.038   3.659  -6.280  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 8
+REMARK VINA RESULT:      -5.5      4.643      7.277
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1       1.394  10.613  -2.174  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1       0.260  11.378  -1.864  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1       0.158  12.167  -0.649  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1       1.276  12.272   0.156  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1       2.385  11.504  -0.048  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1       2.491  10.763  -1.250  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1       3.533  11.588   0.946  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1       3.730  10.486   1.952  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1       5.018  10.035   2.306  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1       5.191   8.983   3.243  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1       4.109   8.234   3.716  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1       2.820   8.694   3.311  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1       2.691   9.804   2.504  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1       3.774   9.928  -1.572  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1       3.827   8.539  -1.015  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1       3.488   8.524  -0.068  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1       3.146   7.981  -1.521  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1       4.744   8.114  -1.010  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1       1.211  13.352   1.261  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1       0.185  13.068   2.406  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1       0.610  12.388   3.427  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1       1.596  12.137   3.416  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1      -0.024  12.105   4.151  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1      -0.935  13.545   2.370  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1       1.501   9.728  -3.435  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1       1.918  10.574  -4.732  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -1.019  11.394  -2.669  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -1.863  10.148  -2.564  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -1.904   9.429  -1.584  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -2.641   9.876  -3.540  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 9
+REMARK VINA RESULT:      -5.5     19.797     22.389
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1      -8.219   2.860  14.545  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1      -7.518   3.117  13.359  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -7.563   2.222  12.215  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -8.438   1.153  12.257  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1      -9.095   0.806  13.402  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -9.074   1.699  14.500  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1      -9.952  -0.451  13.406  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1     -11.435  -0.343  13.179  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1     -12.007   0.797  12.578  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1     -13.409   0.895  12.385  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1     -14.294  -0.037  12.935  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1     -13.686  -1.163  13.568  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1     -12.313  -1.284  13.617  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -9.874   1.389  15.807  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1     -11.241   1.993  15.916  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1     -11.937   1.359  15.561  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1     -11.465   2.063  16.904  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1     -11.361   2.871  15.431  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1      -8.666   0.418  10.916  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1      -7.414   0.333   9.984  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1      -7.354   1.170   8.995  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1      -8.110   1.848   8.937  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1      -6.617   1.107   8.317  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1      -6.501  -0.432  10.240  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1      -8.144   3.772  15.789  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -9.139   5.025  15.679  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -6.557   4.265  13.152  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -5.135   3.999  13.577  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -4.677   4.299  14.663  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -4.388   3.348  12.771  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 10
+REMARK VINA RESULT:      -5.4     14.072     17.437
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1      -3.646   6.134 -19.739  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1      -2.297   6.256 -19.379  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -1.455   7.340 -19.855  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -2.050   8.359 -20.575  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1      -3.338   8.270 -21.018  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -4.160   7.230 -20.524  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1      -3.889   9.376 -21.905  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1      -3.943   9.179 -23.395  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1      -5.139   8.813 -24.046  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1      -5.174   8.613 -25.451  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1      -4.007   8.592 -26.220  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1      -2.807   8.932 -25.525  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1      -2.838   9.250 -24.184  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -5.665   7.127 -20.935  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -6.637   7.937 -20.133  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1      -7.581   7.760 -20.437  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -6.623   7.577 -19.184  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -6.495   8.936 -20.168  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1      -1.184   9.621 -20.795  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1       0.062   9.418 -21.716  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1       1.100  10.162 -21.481  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1       1.030  10.785 -20.680  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1       1.896  10.134 -22.091  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1       0.077   8.538 -22.557  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1      -4.543   4.962 -19.284  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -5.144   5.196 -17.815  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -1.523   5.244 -18.565  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -0.254   5.758 -17.935  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -0.217   6.594 -17.053  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1       0.847   5.222 -18.299  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 11
+REMARK VINA RESULT:      -5.4     14.981     18.255
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1      -3.765   6.773 -19.923  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1      -2.400   6.840 -20.234  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -1.894   7.582 -21.377  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -2.784   8.358 -22.096  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1      -4.131   8.284 -21.891  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -4.613   7.588 -20.757  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1      -5.058   9.079 -22.798  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1      -5.631   8.432 -24.030  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1      -5.044   8.616 -25.299  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1      -5.604   8.015 -26.456  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1      -6.844   7.372 -26.423  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1      -7.431   7.232 -25.129  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1      -6.787   7.716 -24.011  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -6.142   7.539 -20.431  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -6.623   8.440 -19.336  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1      -6.176   9.340 -19.396  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -7.600   8.648 -19.519  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -6.473   8.094 -18.398  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1      -2.152   9.350 -23.099  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1      -1.794  10.753 -22.509  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1      -0.583  10.921 -22.074  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1       0.049  10.134 -22.198  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1      -0.322  11.771 -21.610  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1      -2.600  11.665 -22.544  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1      -4.325   5.948 -18.743  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -4.371   4.379 -19.071  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -1.309   6.080 -19.515  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -0.634   6.828 -18.393  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -0.368   6.344 -17.310  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -0.249   8.024 -18.626  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 12
+REMARK VINA RESULT:      -5.4     14.220     16.456
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1      -3.209   5.755 -19.529  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1      -3.812   6.471 -20.572  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -3.114   7.506 -21.315  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -1.766   7.689 -21.070  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1      -1.136   7.078 -20.025  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -1.811   6.048 -19.328  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1       0.320   7.417 -19.744  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1       1.401   6.448 -20.143  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1       1.348   5.750 -21.367  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1       2.365   4.826 -21.724  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1       3.354   4.435 -20.818  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1       3.360   5.134 -19.573  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1       2.431   6.121 -19.319  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -1.107   5.260 -18.174  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -0.597   6.070 -17.022  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1       0.015   6.801 -17.347  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -1.386   6.577 -16.632  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -0.091   5.547 -16.321  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1      -1.013   8.579 -22.085  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1      -1.117  10.117 -21.824  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1      -0.075  10.706 -21.323  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1       0.745  10.120 -21.186  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1      -0.113  11.673 -21.058  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1      -2.109  10.738 -22.163  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1      -3.950   4.687 -18.694  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -5.165   5.314 -17.856  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -5.262   6.350 -20.980  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -6.127   7.540 -20.647  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -5.925   8.294 -19.715  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -7.086   7.816 -21.444  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 13
+REMARK VINA RESULT:      -5.4     11.930     15.562
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1       0.494   7.890 -17.304  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1       0.768   9.261 -17.407  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1       0.561  10.010 -18.634  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -0.059   9.371 -19.691  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1      -0.288   8.026 -19.684  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -0.115   7.309 -18.476  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1      -0.866   7.371 -20.929  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1      -2.358   7.298 -21.108  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1      -3.080   8.350 -21.710  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1      -4.489   8.277 -21.858  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1      -5.239   7.260 -21.262  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1      -4.483   6.228 -20.629  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1      -3.105   6.270 -20.624  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -0.439   5.782 -18.391  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -1.766   5.409 -17.804  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1      -2.249   6.228 -17.474  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -2.353   5.077 -18.563  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -1.726   4.756 -17.034  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1      -0.524  10.283 -20.849  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1       0.627  10.936 -21.683  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1       1.331  10.149 -22.437  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1       1.042   9.174 -22.458  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1       2.133  10.497 -22.929  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1       0.787  12.143 -21.683  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1       0.756   7.066 -16.025  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1       2.211   6.391 -16.028  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1       1.407  10.099 -16.323  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1       2.914  10.065 -16.286  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1       3.632  10.554 -17.137  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1       3.470   9.557 -15.254  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 14
+REMARK VINA RESULT:      -5.4      9.042     12.432
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1      -3.440  12.570   6.282  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1      -3.238  11.189   6.412  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -1.969  10.552   6.109  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -0.886  11.361   5.818  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1      -1.027  12.702   5.608  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -2.257  13.320   5.936  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1       0.187  13.510   5.175  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1       0.581  13.544   3.724  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1      -0.355  13.288   2.701  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1       0.033  13.305   1.336  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1       1.374  13.397   0.953  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1       2.302  13.621   2.015  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1       1.865  13.730   3.318  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -2.447  14.865   5.790  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -2.815  15.371   4.429  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1      -3.022  16.356   4.462  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -1.982  15.323   3.851  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -3.607  14.913   4.001  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1       0.492  10.661   5.802  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1       0.861   9.951   4.459  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1       1.993   9.319   4.415  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1       2.528   9.299   5.280  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1       2.319   8.916   3.555  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1       0.071   9.926   3.533  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1      -4.796  13.258   6.550  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -5.036  13.533   8.112  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -4.315  10.186   6.761  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -4.231   9.609   8.152  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -4.027  10.266   9.155  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -4.468   8.362   8.290  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 15
+REMARK VINA RESULT:      -5.3     21.320     23.395
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1      -8.296   1.604  13.331  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1      -8.545   0.738  12.258  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -9.547  -0.313  12.317  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1     -10.373  -0.363  13.424  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1     -10.143   0.402  14.530  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -9.188   1.444  14.453  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1     -11.023   0.209  15.755  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1     -10.572  -0.706  16.861  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1     -10.402  -2.089  16.648  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1      -9.994  -2.946  17.703  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1      -9.917  -2.498  19.025  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1     -10.130  -1.100  19.214  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1     -10.395  -0.278  18.139  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -8.940   2.401  15.665  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -9.775   3.644  15.721  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1     -10.714   3.453  15.410  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -9.894   3.887  16.699  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -9.429   4.418  15.171  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1     -11.602  -1.294  13.303  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1     -12.940  -0.580  12.922  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1     -14.037  -1.256  13.079  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1     -13.936  -2.182  13.486  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1     -14.916  -0.880  12.773  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1     -12.945   0.587  12.576  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1      -7.201   2.693  13.305  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -7.721   4.056  12.638  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -7.751   0.702  10.972  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -8.180   1.695   9.922  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -9.334   2.012   9.710  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -7.263   2.298   9.267  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 16
+REMARK VINA RESULT:      -5.3      3.696      6.655
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1       1.174  10.971  -1.801  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1       0.300  10.910  -2.895  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1       0.748  10.577  -4.237  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1       2.059  10.173  -4.405  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1       2.978  10.275  -3.401  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1       2.529  10.567  -2.091  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1       4.428   9.923  -3.691  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1       5.236  10.792  -4.617  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1       5.163  12.199  -4.556  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1       5.916  13.007  -5.446  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1       6.614  12.460  -6.526  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1       6.640  11.033  -6.581  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1       6.002  10.282  -5.617  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1       3.527  10.618  -0.888  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1       3.710   9.349  -0.114  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1       4.638   8.983  -0.249  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1       3.691   9.588   0.873  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1       3.061   8.609  -0.343  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1       2.400   9.549  -5.777  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1       2.227  10.504  -7.003  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1       1.298  10.207  -7.859  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1       0.726   9.397  -7.634  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1       1.197  10.736  -8.706  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1       2.883  11.526  -7.090  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1       0.725  11.371  -0.379  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1       0.742  12.961  -0.167  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -1.164  11.283  -2.855  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -2.122  10.125  -2.724  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -2.221   9.428  -1.733  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -2.932   9.915  -3.689  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 17
+REMARK VINA RESULT:      -5.3     12.854     15.875
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1      -3.674   6.458 -19.891  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1      -4.284   7.575 -20.479  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -3.549   8.783 -20.812  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -2.174   8.769 -20.669  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1      -1.526   7.745 -20.041  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -2.242   6.560 -19.749  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1      -0.026   7.852 -19.815  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1       0.496   8.328 -18.486  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1       0.473   9.692 -18.132  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1       0.984  10.131 -16.883  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1       1.687   9.272 -16.034  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1       1.724   7.903 -16.437  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1       1.098   7.495 -17.596  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -1.531   5.326 -19.103  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -1.406   5.330 -17.610  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1      -2.090   5.943 -17.199  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -1.682   4.410 -17.279  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -0.502   5.611 -17.257  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1      -1.419   9.954 -21.314  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1      -1.245   9.865 -22.865  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1      -1.851  10.761 -23.582  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1      -2.353  11.480 -23.066  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1      -1.844  10.704 -24.583  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1      -0.501   9.038 -23.360  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1      -4.449   5.186 -19.483  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -5.050   5.295 -18.000  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -5.768   7.718 -20.733  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -6.215   7.400 -22.137  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -6.673   6.329 -22.485  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -6.181   8.345 -22.997  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 18
+REMARK VINA RESULT:      -5.3     20.866     23.379
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1     -12.739   1.727  12.428  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1     -11.727   2.664  12.174  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1     -10.336   2.425  12.519  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -9.987   1.172  12.986  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1     -10.926   0.240  13.321  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1     -12.274   0.466  12.953  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1     -10.473  -1.073  13.940  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1     -10.478  -1.233  15.436  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1     -10.585  -0.120  16.295  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1     -10.571  -0.283  17.705  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1     -10.272  -1.511  18.300  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1     -10.133  -2.612  17.402  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1     -10.286  -2.434  16.044  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1     -13.379  -0.602  13.240  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1     -13.983  -0.591  14.611  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1     -14.860  -0.096  14.607  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1     -14.250  -1.545  14.834  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1     -13.408  -0.175  15.329  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1      -8.470   0.877  13.050  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1      -7.731   0.904  11.672  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1      -6.867   1.854  11.482  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1      -6.709   2.477  12.270  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1      -6.425   1.970  10.589  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1      -7.904   0.016  10.857  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1     -14.230   1.984  12.116  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1     -14.601   1.612  10.600  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1     -11.953   4.056  11.630  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1     -12.024   4.157  10.127  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1     -12.994   4.555   9.513  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1     -10.967   3.878   9.465  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 19
+REMARK VINA RESULT:      -5.3     14.030     17.638
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1      -3.532   8.422 -22.042  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1      -3.925   7.561 -21.008  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -2.993   6.678 -20.329  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -1.649   6.797 -20.624  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1      -1.205   7.562 -21.664  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -2.112   8.444 -22.299  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1       0.277   7.554 -22.004  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1       0.808   6.560 -23.001  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1       1.267   5.289 -22.599  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1       1.782   4.366 -23.546  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1       2.024   4.732 -24.873  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1       1.580   6.037 -25.241  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1       0.962   6.855 -24.319  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -1.640   9.400 -23.442  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -1.151  10.754 -23.027  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1      -0.489  11.111 -23.696  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -1.934  11.397 -23.101  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -0.708  10.789 -22.119  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1      -0.682   6.059 -19.670  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1      -0.514   6.713 -18.259  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1      -0.715   5.953 -17.226  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1      -0.919   4.977 -17.424  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1      -0.703   6.339 -16.300  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1      -0.126   7.862 -18.150  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1      -4.516   9.331 -22.810  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -5.243   8.554 -24.010  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -5.351   7.354 -20.550  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -5.753   8.133 -19.322  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -6.455   7.694 -18.432  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -5.257   9.301 -19.174  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
+MODEL 20
+REMARK VINA RESULT:      -5.2     16.552     19.791
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C01_2  and  C02_3 
+REMARK    2  A    between atoms: C03_4  and  C04_5 
+REMARK    3  A    between atoms: C04_5  and  C05_6 
+REMARK    4  A    between atoms: C09_10  and  C0A_11 
+REMARK    5  A    between atoms: C0A_11  and  C0B_12 
+REMARK       I    between atoms: C0B_12  and  N0C_13 
+REMARK    6  A    between atoms: C0E_15  and  C0F_16 
+REMARK    7  A    between atoms: C0F_16  and  C0G_17 
+REMARK    8  A    between atoms: C0N_23  and  C0O_24 
+REMARK    9  A    between atoms: C0O_24  and  N0P_25 
+ROOT
+ATOM      1  C02 MOL     1      -4.547   7.828 -21.269  1.00  0.00    -0.044 C 
+ATOM      2  C03 MOL     1      -3.224   8.277 -21.170  1.00  0.00     0.129 C 
+ATOM      3  C08 MOL     1      -2.560   8.998 -22.243  1.00  0.00    -0.316 C 
+ATOM      4  C09 MOL     1      -3.313   9.370 -23.341  1.00  0.00     0.109 C 
+ATOM      5  C0E MOL     1      -4.582   8.908 -23.533  1.00  0.00    -0.064 C 
+ATOM      6  C0N MOL     1      -5.233   8.235 -22.471  1.00  0.00    -0.120 C 
+ENDROOT
+BRANCH   5   7
+ATOM      7  C0F MOL     1      -5.308   9.263 -24.821  1.00  0.00     0.047 C 
+BRANCH   7   8
+ATOM      8  C0G MOL     1      -5.298   8.296 -25.974  1.00  0.00     0.171 C 
+ATOM      9  C0M MOL     1      -6.447   7.557 -26.325  1.00  0.00    -0.195 C 
+ATOM     10  C0K MOL     1      -6.420   6.635 -27.403  1.00  0.00    -0.062 C 
+ATOM     11  C0J MOL     1      -5.227   6.286 -28.043  1.00  0.00    -0.135 C 
+ATOM     12  C0I MOL     1      -4.075   7.027 -27.642  1.00  0.00    -0.071 C 
+ATOM     13  C0H MOL     1      -4.172   8.010 -26.679  1.00  0.00    -0.152 C 
+ENDBRANCH   7   8
+ENDBRANCH   5   7
+BRANCH   6  14
+ATOM     14  C0O MOL     1      -6.715   7.755 -22.608  1.00  0.00     0.092 C 
+BRANCH  14  15
+ATOM     15  N0P MOL     1      -6.923   6.329 -23.017  1.00  0.00    -0.153 N 
+ATOM     16  H0Q MOL     1      -6.288   5.723 -22.524  1.00  0.00     0.257 HD
+ATOM     17  H0R MOL     1      -7.836   6.044 -22.677  1.00  0.00     0.244 HD
+ATOM     18  H0S MOL     1      -6.806   6.145 -24.004  1.00  0.00     0.246 HD
+ENDBRANCH  14  15
+ENDBRANCH   6  14
+BRANCH   4  19
+ATOM     19  C0A MOL     1      -2.647  10.382 -24.301  1.00  0.00    -0.219 C 
+BRANCH  19  20
+ATOM     20  C0B MOL     1      -2.865  11.887 -23.934  1.00  0.00     0.819 C 
+ATOM     21  N0C MOL     1      -3.804  12.520 -24.568  1.00  0.00    -0.993 N 
+ATOM     22  H13 MOL     1      -4.354  11.967 -25.221  1.00  0.00     0.395 HD
+ATOM     23  H14 MOL     1      -3.933  13.506 -24.435  1.00  0.00     0.440 HD
+ATOM     24  O0D MOL     1      -2.234  12.404 -23.030  1.00  0.00    -0.614 OA
+ENDBRANCH  19  20
+ENDBRANCH   4  19
+BRANCH   1  25
+ATOM     25  C01 MOL     1      -5.253   7.016 -20.160  1.00  0.00    -0.066 C 
+ATOM     26  C00 MOL     1      -6.021   7.962 -19.116  1.00  0.00    -0.126 C 
+ENDBRANCH   1  25
+BRANCH   2  27
+ATOM     27  C04 MOL     1      -2.293   7.983 -20.015  1.00  0.00    -0.266 C 
+BRANCH  27  28
+ATOM     28  C05 MOL     1      -1.674   6.608 -20.021  1.00  0.00     0.870 C 
+ATOM     29  O06 MOL     1      -0.844   6.234 -20.827  1.00  0.00    -0.820 OA
+ATOM     30  O07 MOL     1      -1.987   5.814 -19.070  1.00  0.00    -0.676 OA
+ENDBRANCH  27  28
+ENDBRANCH   2  27
+TORSDOF 9
+ENDMDL
